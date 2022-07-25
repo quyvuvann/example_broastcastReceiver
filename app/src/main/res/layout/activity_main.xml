@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/idsendbroadcast"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:text="Send BroadCastReceiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtview"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:textColor="#51CDBF"
+        android:textSize="18dp"
+        android:text="."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
